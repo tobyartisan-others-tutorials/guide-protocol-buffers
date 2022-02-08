@@ -1,0 +1,9 @@
+syntax = "proto3"enum
+
+message LatitudeLongitude {
+    // In degrees. Must be in the range [-90.0, +90.0].
+    double latitude = 1;
+
+    // In degrees. Must be in the range [-180.0, +180.0].
+    double longitude = 2;
+}
