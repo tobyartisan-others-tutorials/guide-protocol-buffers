@@ -1,3 +1,11 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "protoc": {
+        "path": "${env.PROTOC_LIB}\\bin\\protoc.exe",
+        "compile_on_save": true,
+        "options": [
+            "--proto_path=${env.UdemyProtobufDir}\\my-code\\4-exercises-solutions",
+            "--java_out=${env.UdemyProtobufDir}\\my-code\\java-out"
+        ]
+    }
 }
