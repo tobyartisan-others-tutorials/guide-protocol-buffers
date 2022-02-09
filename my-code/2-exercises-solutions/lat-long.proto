@@ -1,4 +1,4 @@
-syntax = "proto3"enum
+syntax = "proto3";
 
 message LatitudeLongitude {
     // In degrees. Must be in the range [-90.0, +90.0].
